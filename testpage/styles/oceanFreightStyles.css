@@ -1,0 +1,22 @@
+  .welcome-container{
+    height: 30vh;
+    background-image: url("..\\resources\\HLAG_Wallpaper_stack-containers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .welcome-title{
+    height: 3vw;
+    font-size: 3.5vw;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  

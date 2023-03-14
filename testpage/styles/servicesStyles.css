@@ -1,0 +1,152 @@
+
+
+  .welcome-container{
+    height: 40vh;
+    background-image: url("..\\resources\\HLAG_Wallpaper_stack-containers.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .welcome-title{
+    font-family: 'Oswald', sans-serif;
+    height: 3vw;
+    font-size: 3.5vw;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    color: wheat;
+
+  }
+
+
+  .freights-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .freight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    transition: 0.5s;
+    min-width: 200px;
+    padding: 40px;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(218, 165, 32, 1);
+  }
+  .freight-title{
+    color:rgb(50,50,50);
+  }
+  .freight-image{
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+    transition: 0.2s;
+  }
+  .freight-description{
+    text-align: center;
+    
+    color: rgb(134, 134, 134);
+  }
+  
+  .freight:hover{
+    background-color: #222;
+    transition: 0.2s;
+  }
+  .freight:hover .freight-title{
+    color: rgba(218, 165, 32, 1);
+  }
+  .freight:hover img{
+    transform: scale(130%);
+    transition: 0.2s;
+  }
+  .freight-link {
+    display: inline-block;
+    color: rgba(218, 165, 32, 1);
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1vh;
+  
+  }
+  .freight-title-hr{
+    transition: 0.3s;
+    width: 50px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .freight-hr{
+    transition: 0.3s;
+    width: 5px;
+    border-radius: 5px;
+  }
+  
+  .freight-link:hover {
+    color: white;
+    background-size: 20px;
+    cursor: pointer;
+  }
+  .freight-link:hover .freight-hr{
+    width: 200px;
+    transition: 0.3s;
+  }
+
+  
+  .contact-us-container{
+    background-image: url("..\\resources\\contactwallpaper.jpg");
+    height: 15vw;
+    background-position: center;
+    background-size: cover;
+    padding-top:5vw;
+    
+  }
+  
+  .contact-us-panel{
+    background-color: rgba(10, 10, 10, 0.9);
+    height: 10vw;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .contact-us-text{
+    margin: auto;
+    text-align: center;
+    user-select: none;
+    width: auto;
+    font-size: 2vw;
+    color: #ddc;
+  }
+  .contact-us-button{
+    
+    margin: auto;
+    width: 10vw;
+    height: 5vw;
+    cursor: pointer;
+    background-color: rgba(218, 165, 32, 1);
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 5px solid rgba(218, 165, 32, 1);
+    font-size: 1.5vw;
+    font-weight: 500;
+    
+  }
+
+  
